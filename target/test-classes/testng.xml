@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Test Suite">
+
+  <test  name="My Sample Contact Test" verbose="10">
+  <parameter name = "browser" value = "chrome" />
+  <parameter name = "url" value = "http://www.google.com" />
+  <parameter name = "headless" value = "yes" />
+    
+    <classes>
+      <class name="TestNgAnnotationSession.ContactsTest"/>
+       <class name="TestNgAnnotationSession.HomeTest"/>
+      
+    </classes>
+  </test>  
+      
+      
+      
+      </suite> 
